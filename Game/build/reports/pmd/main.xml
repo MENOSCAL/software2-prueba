@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2016-01-14T20:38:33.092">
+<file name="C:\Users\victor\workspace\Game\src\main\java\simpleGame\core\Board.java">
+<violation beginline="88" endline="88" begincolumn="18" endcolumn="30" rule="UselessParentheses" ruleset="Unnecessary" package="simpleGame.core" class="Board" method="getSquareContent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="88" endline="88" begincolumn="36" endcolumn="48" rule="UselessParentheses" ruleset="Unnecessary" package="simpleGame.core" class="Board" method="getSquareContent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="108" endline="110" begincolumn="9" endcolumn="33" rule="IfStmtsMustUseBraces" ruleset="Braces" package="simpleGame.core" class="Board" method="addPawn" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="174" endline="174" begincolumn="17" endcolumn="29" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="simpleGame.core" class="Board" method="squareContentSprite" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="179" endline="179" begincolumn="17" endcolumn="45" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="simpleGame.core" class="Board" method="squareContentSprite" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+</file>
+<file name="C:\Users\victor\workspace\Game\src\main\java\simpleGame\core\Game.java">
+<violation beginline="31" endline="31" begincolumn="17" endcolumn="40" rule="UselessParentheses" ruleset="Unnecessary" package="simpleGame.core" class="Game" method="isGameOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="32" endline="32" begincolumn="20" endcolumn="39" rule="UselessParentheses" ruleset="Unnecessary" package="simpleGame.core" class="Game" method="isGameOver" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="41" endline="42" begincolumn="9" endcolumn="38" rule="IfStmtsMustUseBraces" ruleset="Braces" package="simpleGame.core" class="Game" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="C:\Users\victor\workspace\Game\src\main\java\simpleGame\core\Pawn.java">
+<violation beginline="5" endline="167" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="simpleGame.core" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Pawn' has a Cyclomatic Complexity of 2 (Highest = 10).
+</violation>
+<violation beginline="80" endline="120" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Code Size" package="simpleGame.core" class="Pawn" method="move" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'move' has a Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="133" endline="133" begincolumn="13" endcolumn="37" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="simpleGame.core" class="Pawn" method="attack" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="135" endline="135" begincolumn="13" endcolumn="37" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="simpleGame.core" class="Pawn" method="attack" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="136" endline="136" begincolumn="9" endcolumn="35" rule="IfStmtsMustUseBraces" ruleset="Braces" package="simpleGame.core" class="Pawn" method="attack" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+</pmd>
