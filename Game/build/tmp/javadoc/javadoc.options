@@ -5,6 +5,7 @@
 -windowtitle 'Game API'
 'C:\\Users\\victor\\workspace\\Game\\src\\main\\java\\Library.java'
 'C:\\Users\\victor\\workspace\\Game\\src\\main\\java\\simpleGame\\cli\\CLIMain.java'
+'C:\\Users\\victor\\workspace\\Game\\src\\main\\java\\simpleGame\\cli\\ICalculator.java'
 'C:\\Users\\victor\\workspace\\Game\\src\\main\\java\\simpleGame\\core\\Board.java'
 'C:\\Users\\victor\\workspace\\Game\\src\\main\\java\\simpleGame\\core\\Direction.java'
 'C:\\Users\\victor\\workspace\\Game\\src\\main\\java\\simpleGame\\core\\Game.java'

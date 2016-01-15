@@ -61,21 +61,21 @@ public class Board {
      * @param sizeX The number of squares on the x axis.
      * @param sizeY The number of squares on the y axis.
      */
-<span class="nc" id="L64">    public Board(int numberOfPawns, int sizeX, int sizeY, int xBonus, int yBonus) {</span>
-<span class="nc" id="L65">        Random random = new Random();</span>
-<span class="nc" id="L66">        this.xSize = sizeX;</span>
-<span class="nc" id="L67">        this.ySize = sizeY;</span>
-<span class="nc" id="L68">        this.xBonusSquare = xBonus;</span>
-<span class="nc" id="L69">        this.yBonusSquare = yBonus;</span>
-<span class="nc" id="L70">        this.pawns = new ArrayList&lt;Pawn&gt;();</span>
-<span class="nc bnc" id="L71" title="All 2 branches missed.">        for(int i = 0; i&lt;numberOfPawns; i++) {</span>
-<span class="nc" id="L72">            Pawn pawn = new Pawn(Character.forDigit(i, 10),</span>
-<span class="nc" id="L73">                                 random.nextInt(xSize),random.nextInt(ySize),this);</span>
-<span class="nc" id="L74">            this.addPawn(pawn);</span>
+<span class="fc" id="L64">    public Board(int numberOfPawns, int sizeX, int sizeY, int xBonus, int yBonus) {</span>
+<span class="fc" id="L65">        Random random = new Random();</span>
+<span class="fc" id="L66">        this.xSize = sizeX;</span>
+<span class="fc" id="L67">        this.ySize = sizeY;</span>
+<span class="fc" id="L68">        this.xBonusSquare = xBonus;</span>
+<span class="fc" id="L69">        this.yBonusSquare = yBonus;</span>
+<span class="fc" id="L70">        this.pawns = new ArrayList&lt;Pawn&gt;();</span>
+<span class="fc bfc" id="L71" title="All 2 branches covered.">        for(int i = 0; i&lt;numberOfPawns; i++) {</span>
+<span class="fc" id="L72">            Pawn pawn = new Pawn(Character.forDigit(i, 10),</span>
+<span class="fc" id="L73">                                 random.nextInt(xSize),random.nextInt(ySize),this);</span>
+<span class="fc" id="L74">            this.addPawn(pawn);</span>
         }
 
-<span class="nc" id="L77">        currentPawn = pawns.get(0);</span>
-<span class="nc" id="L78">    }</span>
+<span class="fc" id="L77">        currentPawn = pawns.get(0);</span>
+<span class="fc" id="L78">    }</span>
 
     /**
      * Finds the content of a square.
@@ -84,12 +84,12 @@ public class Board {
      * @return The pawn found, or null if no pawn.
      */
     public Pawn getSquareContent(int x, int y) {
-<span class="nc bnc" id="L87" title="All 2 branches missed.">        for (Pawn p : pawns) {</span>
-<span class="nc bnc" id="L88" title="All 4 branches missed.">            if ((p.getX() == x) &amp;&amp;(p.getY() == y)) {</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">        for (Pawn p : pawns) {</span>
+<span class="pc bpc" id="L88" title="3 of 4 branches missed.">            if ((p.getX() == x) &amp;&amp;(p.getY() == y)) {</span>
 <span class="nc" id="L89">                return p;</span>
             }
-<span class="nc" id="L91">        }</span>
-<span class="nc" id="L92">        return null;</span>
+<span class="fc" id="L91">        }</span>
+<span class="fc" id="L92">        return null;</span>
     }
 
     /**
@@ -105,10 +105,10 @@ public class Board {
      * @param pawn The pawn to add.
      */
     public void addPawn(Pawn pawn) {
-<span class="nc bnc" id="L108" title="All 2 branches missed.">        if (getSquareContent(pawn.getX(),</span>
-<span class="nc" id="L109">                             pawn.getY()) == null)</span>
-<span class="nc" id="L110">            this.pawns.add(pawn);</span>
-<span class="nc" id="L111">    }</span>
+<span class="pc bpc" id="L108" title="1 of 2 branches missed.">        if (getSquareContent(pawn.getX(),</span>
+<span class="fc" id="L109">                             pawn.getY()) == null)</span>
+<span class="fc" id="L110">            this.pawns.add(pawn);</span>
+<span class="fc" id="L111">    }</span>
 
     /**
      * Decides whether a square is bonus or not.

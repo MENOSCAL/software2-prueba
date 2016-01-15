@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.2.3" timestamp="2016-01-14T20:38:33.092">
+<pmd version="5.2.3" timestamp="2016-01-15T07:41:51.013">
 <file name="C:\Users\victor\workspace\Game\src\main\java\simpleGame\core\Board.java">
 <violation beginline="88" endline="88" begincolumn="18" endcolumn="30" rule="UselessParentheses" ruleset="Unnecessary" package="simpleGame.core" class="Board" method="getSquareContent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
 Useless parentheses.
