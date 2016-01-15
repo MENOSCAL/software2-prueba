@@ -2,6 +2,7 @@ package simpleGame;
 
 import junit.framework.Assert;
 import simpleGame.cli.ICalculator;
+import simpleGame.core.Board;
 import simpleGame.core.Game;
 
 import org.junit.Before;
@@ -19,6 +20,10 @@ public class TestGame {
 	public void setup(){
 		// Creating context
 		ICalculator cal = Mockito.mock(ICalculator.class);
+		
+		Board  cal1 = Mockito.mock(Board.class);
+		Mockito.when(cal1.numberOfPawns()).thenReturn(1);
+		
 		Mockito.when(cal.get(0)).thenReturn("first");
 		
 		// Calling the tested operation
@@ -28,7 +33,7 @@ public class TestGame {
 	
 
 	@Test
-	public void testAddTwoNumbers(){
+	public void test(){
 	//	Assert.assertEquals("first", game.toString());
 	}
 }
